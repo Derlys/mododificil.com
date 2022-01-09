@@ -1,0 +1,62 @@
+<!-- You can change the values `dark` here with any of the following: -->
+<!-- dark, light, primary, secondary, success, info, danger, warning -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+  <!-- This is the application title with a link to the root -->
+  <a class="navbar-brand" routerLink="/">
+    <img
+      class="d-none d-md-inline-block"
+      height="40"
+      src="/assets/images/logo.svg"
+      routerLinkActive="active"
+      routerLink="/"
+    />
+    <img
+      class="d-inline-block d-md-none"
+      height="40"
+      src="/assets/images/icono.svg"
+      routerLinkActive="active"
+      routerLink="/"
+    />
+  </a>
+
+  <!-- This is a spacer so the links move to the end -->
+  <div class="mr-auto"></div>
+  <button class="navbar-toggler" type="button" (click)="toggleNavbar()">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <!-- This main navigation links are defined here -->
+  <div
+    class="collapse navbar-collapse justify-content-end"
+    [ngClass]="{ show: navbarOpen }"
+  >
+    <div class="navbar-expand">
+      <div class="navbar-nav justify-content-center">
+        <!-- Each link has the routerLink property set to a different route -->
+        <a
+          class="nav-item nav-link"
+          routerLinkActive="active"
+          routerLink="/inicio"
+          >Inicio</a
+        >
+        <a
+          class="nav-item nav-link"
+          routerLinkActive="active"
+          routerLink="/mi-historia"
+          >Mi historia</a
+        >
+        <a
+          class="nav-item nav-link"
+          routerLinkActive="active"
+          routerLink="/posts"
+          >Blog</a
+        >
+        <a
+          class="nav-item nav-link"
+          routerLinkActive="active"
+          routerLink="/contactame"
+          >Suscribete</a
+        >
+      </div>
+    </div>
+  </div>
+</nav>
