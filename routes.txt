@@ -1,0 +1,14 @@
+article
+contactame
+inicio
+mi-historia
+posts
+posts/el-trabajo-remoto-el-futuro-del-desarrollo-web
+posts/el-mejor-consejo-que-leeras-hoy-sobre-falacia-logica
+posts/las-mejores-herramientas-digitales-para-aprend-desarrollo-web
+posts/creando-mi-homepage-en-modo-dificil
+posts/5-claves-para-empezar-como-developer-in-training
+posts/mi-trabajo-en-una-fundacion
+posts/de-tecnologa-electromecanica-a-coordinadora-de-u-fundacion
+posts/como-descubri-el-mundo-del-desarrollo-web
+

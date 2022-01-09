@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+$light: #e7f3ff;
+$primary: #04668d;
+
+$navbar-light-color: black;
+$navbar-light-active-color: $primary;
+
+$font-size-base: 1rem;
+$font-weight-normal: 300;
+
+$card-bg: $light;
+
+@import "~bootstrap/scss/bootstrap";
+html,
+body {
+  height: 100%;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("assets/images/hamburger.svg");
+}
+.bg-site1 {
+  background-color: $light;
+}
+markdown p {
+  text-align: justify;
+}
+markdown img {
+  max-width: 100%;
+}
+
+img.slide {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: white;
+}

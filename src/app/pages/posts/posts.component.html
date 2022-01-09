@@ -1,0 +1,26 @@
+<div class="container mt-7">
+  <div *ngIf="items$ | async as items" class="row mt-3 mt-md-5 d-flex">
+    <main>
+
+    <div
+      *ngFor="let item of items"
+      class="col-12 offset-md-2 col-md-8 mb-3 mb-md-5">
+
+      <div class="card" >
+        <a [routerLink]="['/posts', item.id]">
+        </a>
+        <img class="card-img-top"  [src]="item.imgUrl" alt="articulo"/>
+
+        <div class="card-body">
+          <a [routerLink]="['/posts', item.id]">
+
+            <h1>{{ item.title }}</h1>
+          </a>
+          <h6>{{ item.createdAt }}</h6>
+          <markdown [data]="item.description"> </markdown>
+        </div>
+      </div>
+    </div>
+    </main>
+  </div>
+</div>
