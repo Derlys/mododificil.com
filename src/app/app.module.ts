@@ -1,4 +1,4 @@
-import { BrowserModule } from '@angular/platform-browser';
+
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
@@ -16,14 +16,15 @@ import {
 } from 'ngx-google-analytics';
 import { LoadingBarRouterModule } from '@ngx-loading-bar/router';
 import { MarkdownModule } from 'ngx-markdown';
+import { BrowserModule } from '@angular/platform-browser';
 
 @NgModule({
   declarations: [AppComponent],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
     RouterModule.forRoot(routes, {
-      initialNavigation: 'enabled',
-    }),
+    initialNavigation: 'enabled',
+}),
     UiModule,
     MarkdownModule.forRoot(),
     BrowserAnimationsModule,
