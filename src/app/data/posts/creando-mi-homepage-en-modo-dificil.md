@@ -2,11 +2,11 @@
 
 Muchas personas piensan que cuando escribo la frase **modo difícil** me refiero a que todo lo que hagamos tenga que ser tortuoso y nada divertido. Quiero aclarar que no es asi😜. Lo irónico es que muchas veces el camino a cumplir nuestras metas es saboteado por nosotros mismos. Pues queriendo tomar el camino más corto, obtenemos como resultado lo inevitable: "demorarnos más".
 
-En fin, un ejemplo sobre lo que les quise decir en el párrafo anterior es mi primer intento de HomePage conozcan la:
+En fin, un ejemplo sobre lo que les quise decir en el párrafo anterior es mi primer intento de HomePage conozcanla:
 
 ![Primer intento de homepage](https://firebasestorage.googleapis.com/v0/b/modo-dificil.appspot.com/o/Screen%20Shot%202020-09-06%20at%209.01.26%20PM.png?alt=media&token=4dee6ab0-a3ac-44f8-97b0-c4340b6479b5)
 
-Obsérvenla hay, hecha sin planificación, sin pensar, sin orientación y totalmente perdida. Si, ya sé lo que están pensando se ve meh 😒, luego de muchos intentos y peleas con css y demás partes del código decidí hacerlo de la manera correcta.
+Obsérvenla ahí, hecha sin planificación, sin pensar, sin orientación y totalmente perdida. Si, ya sé lo que están pensando se ve meh 😒, luego de muchos intentos y peleas con css y demás partes del código decidí hacerlo de la manera correcta.
 
 Cuando tuve la idea de tener un espacio donde compartir la historia de mi aprendizaje y que más personas me acompañaran, solo lo tenia en mi mente como una idea sin planificación pero luego de pensarlo detenidamente supe cual era el propósito de mí Homepage.
 

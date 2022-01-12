@@ -1,4 +1,4 @@
-# El trabajo remoto, el futuro del desarrollo web
+# El trabajo remoto, el futuro del desarrollo de software
 
 En la situación actual en que nos encontramos ya es muy común que la mayoría de personas trabajen de manera remota, toda esta situación de la pandemia ha llevado a las empresas a adaptarse y buscar formas de seguir y no detener su funcionamiento.
 
