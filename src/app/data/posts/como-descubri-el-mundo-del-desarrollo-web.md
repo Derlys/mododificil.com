@@ -1,8 +1,8 @@
 # Cómo descubrí el mundo del desarrollo web
 
-Quiero contarte un poco de mi historia para que puedas entender cómo y porqué nació **Modo Difícil**, mi experiencia busca ayudar a más personas que al igual que yo, quieren alcanzar sus sueños y recorrer el camino junto a mí.
+Quiero contarte un poco de mi historia para que puedas entender cómo y porqué nació **Modo Difícil Devs**, mi experiencia busca ayudar a más personas que al igual que yo, quieren alcanzar sus sueños y recorrer el camino junto a mí.
 
-**Modo difícil**: Es un espacio para estar consiente que todo lo que quieras lograr requiere esfuerzo y eso no anula tus talentos, las limitaciones solo están en la mente. Si haces lo que te gusta y te inspira, trabajando cada día para lograrlo todo lo demás fluye.
+**Modo Difícil Devs**: Es un espacio para estar consiente que todo lo que quieras lograr requiere esfuerzo y eso no anula tus talentos, las limitaciones solo están en la mente. Si haces lo que te gusta y te inspira, trabajando cada día para lograrlo todo lo demás fluye.
 
 ## Comunidades de tecnología.
 
@@ -16,7 +16,7 @@ Una de las razones principales por las que empecé a ir a **meetups** era porque
 
 Un año después en el 2018 a través de alguien cercano supe sobre [pioneras dev](https://pionerasdev.co/), una comunidad de mujeres que se reúne una vez al mes y enseñan código. Fue tal mi experiencia en esta comunidad que realice un bootcamp de 3 meses donde aprendí un montón, compartí con mujeres iguales que yo con ganas de involucrarse en este mundo del desarrollo web.
 
-Pioneras Dev cambio toda la percepción que tenía, no solo de hacer código sino de cómo es aprender en comunidad. Si bien es cierto que en la universidad te reúnes con amigos y formas grupos de estudio y demás, esto es algo que vas más allá, es ver a personas que quieren donar su conocimiento desinteresada mente y que forman una red tan fuerte de mujeres que transforman vidas.
+Pioneras Dev cambio toda la percepción que tenía, no solo de hacer código sino de cómo es aprender en comunidad. Si bien es cierto que en la universidad te reúnes con amigos y formas grupos de estudio y demás, esto es algo que va más allá, es ver a personas que quieren donar su conocimiento desinteresada mente y que forman una red tan fuerte de mujeres que transforman vidas.
 
 Luego de terminar el bootcamp en Pioneras quede con una curiosidad y ganas de aprender mucho más. Este impulso sería lo que me llevaría más adelante a cambiar de empleo y tener una de las experiencias más enriquecedoras de mi vida.
 

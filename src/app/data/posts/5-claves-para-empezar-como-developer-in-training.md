@@ -10,7 +10,7 @@ En la universidad realicé un proyecto con MatLab y arduino y nos enfocamos en l
 
 ## Involucrarte
 
-Empieza involucrándote en el mundo de la tecnología y su lenguaje. Una manera de lograrlo es viendo tutoriales sobre algo que te gustaría hacer realidad con el código como por ejemplo: hacer un blog, una página web o busca proyectos open source en los que puedas contribuir. Yo empecé haciendo **refactorings**. La app que estaba cambiando esta hecha con un **framework** que se llama [Angular](https://angular.io/). Fue un reto que me ayudó ha aumentado mis conocimientos en código.
+Empieza involucrándote en el mundo de la tecnología y su lenguaje. Una manera de lograrlo es viendo tutoriales sobre algo que te gustaría hacer realidad con el código como por ejemplo: hacer un blog, una página web o busca proyectos open source en los que puedas contribuir. Yo empecé haciendo **refactorings**. La app que estaba cambiando esta hecha con un **framework** que se llama [Angular](https://angular.io/). Fue un reto que me ayudó ha aumentar mis conocimientos en código.
 
 ## Clave # 2
 

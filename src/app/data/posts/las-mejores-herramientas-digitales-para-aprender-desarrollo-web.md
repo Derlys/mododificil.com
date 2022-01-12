@@ -4,7 +4,7 @@
 
 ### [Mimo](https://play.google.com/store/apps/details?id=com.getmimo&hl=es_CO)
 
-Es una app super genial y dinámica, te ofrece cursos desde niveles básicos hasta avanzados.Puedes descargarla en Google play, te registras con tu cuenta de gmail y empiezas el aprendizaje.
+Es una app super genial y dinámica, te ofrece cursos desde niveles básicos hasta avanzados. Puedes descargarla en Google play, te registras con tu cuenta de gmail y empiezas el aprendizaje.
 
 Si eliges el nivel básico empieza con módulo y retos de html y vas pasando de nivel a medida que avanzas, tiene la dinámica de duolingo con textos pequeños de auto completar y responder preguntas sencillas acerca de un concepto leído anteriormente.
 
@@ -58,9 +58,6 @@ Si eres un desarrollador mucha más experiencia te recomiendo seguir a:
 
 Sus tutoriales están hechos de forma clara y siempre enfocados a solucionar alguna duda sobre la tecnología o lenguaje del que habla en sus artículos. Su amplia experiencia te deja ver que puedes encontrar soluciones en su contenido. También ahora comparte código en vivo por su canal de [Twitch](https://www.twitch.tv/beemandev).
 
-### [Veronica Alcaraz](https://twitter.com/Lukaina_co)
-
-Ella apenas comienza en el mundo Tech y lo hace con toda la fuerza mira [este](https://lukainaf.gitbook.io/hola-mundo-and-node-js-1/hola-mundo-and-node-js/) tutorial para hacer un ¡Hola mundo! con node.
 
 Esta última recomendación va más enfocada a reforzar conceptos de git y github, me parece que lo explica de forma muy divertida y original ella es:
 
@@ -68,4 +65,4 @@ Esta última recomendación va más enfocada a reforzar conceptos de git y githu
 
 Sus explicaciones con gaticos es además de adorable muy útil y clara para personitas como yo que se siguen enredando con git 🙊, pueden seguir su contenido [aquí](https://teloexplicocongatitos.com/).
 
-Recuerden que existe mucho contenido con el que puedes iniciar en el mundo Tech, esto es solo una repasa dita de lo que yo he tenido la oportunidad de utilizar.
+Recuerden que existe mucho contenido con el que puedes iniciar en el mundo Tech, esto es solo una repasadita de lo que yo he tenido la oportunidad de utilizar.
