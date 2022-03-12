@@ -3,13 +3,10 @@ import { CommonModule } from '@angular/common';
 
 import { InicioRoutingModule } from './inicio-routing.module';
 import { InicioComponent } from './inicio.component';
-
+import { MarkdownModule } from 'ngx-markdown';
 
 @NgModule({
   declarations: [InicioComponent],
-  imports: [
-    CommonModule,
-    InicioRoutingModule
-  ]
+  imports: [CommonModule, InicioRoutingModule, MarkdownModule],
 })
-export class InicioModule { }
+export class InicioModule {}
