@@ -1,6 +1,5 @@
 import { Routes } from '@angular/router';
 import { LayoutComponent } from './ui/layout/layout.component';
-import { LayoutHomeComponent } from './ui/layout-home/layout-home.component';
 
 // @ts-ignore
 export const routes: Routes = [
@@ -13,20 +12,14 @@ export const routes: Routes = [
   },
   {
     path: '',
-    component: LayoutHomeComponent,
+    component: LayoutComponent,
     children: [
+      // Here we will add our application pages
       {
         path: 'inicio',
         loadChildren: () =>
           import('./pages/inicio/inicio.module').then((m) => m.InicioModule),
       },
-    ],
-  },
-  {
-    path: '',
-    component: LayoutComponent,
-    children: [
-      // Here we will add our application pages
       {
         path: 'mi-historia',
         loadChildren: () =>
