@@ -1,61 +1,46 @@
-<!-- You can change the values `dark` here with any of the following: -->
-<!-- dark, light, primary, secondary, success, info, danger, warning -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
-  <!-- This is the application title with a link to the root -->
-  <a class="navbar-brand" routerLink="/">
-    <img
-      class="d-none d-md-inline-block"
-      height="40"
-      src="/assets/images/logo.svg"
-      routerLinkActive="active"
-      routerLink="/"
-    />
-    <img
-      class="d-inline-block d-md-none"
-      height="40"
-      src="/assets/images/icono.svg"
-      routerLinkActive="active"
-      routerLink="/"
-    />
-  </a>
-
-  <!-- This is a spacer so the links move to the end -->
-  <div class="mr-auto"></div>
-  <button class="navbar-toggler" type="button" (click)="toggleNavbar()">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <!-- This main navigation links are defined here -->
-  <div
-    class="collapse navbar-collapse justify-content-end"
-    [ngClass]="{ show: navbarOpen }"
-  >
-    <div class="navbar-expand">
-      <div class="navbar-nav justify-content-center">
-        <!-- Each link has the routerLink property set to a different route -->
-        <a
-          class="nav-item nav-link"
-          routerLinkActive="active"
+<!-- This example requires Tailwind CSS v2.0+ -->
+<nav class="nav">
+  <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="relative flex items-center justify-between h-16">
+      <div class="flex-shrink-0 flex items-center">
+        <img
+          src="/assets/images/logo.svg"
+          alt="logo"
+          class="h-8 w-auto"
           routerLink="/inicio"
-          >Inicio</a
-        >
-        <a
-          class="nav-item nav-link"
-          routerLinkActive="active"
-          routerLink="/mi-historia"
-          >Mi historia</a
-        >
-        <a
-          class="nav-item nav-link"
-          routerLinkActive="active"
-          routerLink="/posts"
-          >Blog</a
-        >
-        <a
-          class="nav-item nav-link"
-          routerLinkActive="active"
-          routerLink="/contactame"
-          >Suscribete</a
-        >
+        />
+      </div>
+      <div class="hidden sm:block sm:ml-6">
+        <div class="flex space-x-4">
+          <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+          <a
+            routerLinkActive="active"
+            routerLink="/inicio"
+            class="hover:bg-sky-800 px-3 py-2 rounded-md text-sm font-medium"
+            aria-current="page"
+            >Inicio</a
+          >
+
+          <a
+            routerLink="/mi-historia"
+            class="hover:bg-sky-800 px-3 py-2 rounded-md text-sm font-medium"
+            >Mi historia</a
+          >
+
+          <a
+            routerLinkActive="active"
+            routerLink="/posts"
+            class="hover:bg-sky-800 px-3 py-2 rounded-md text-sm font-medium"
+            >Blog</a
+          >
+
+          <a
+            routerLinkActive="active"
+            routerLink="/contactame"
+            class="hover:bg-sky-800 px-3 py-2 rounded-md text-sm font-medium"
+            >Suscríbete</a
+          >
+        </div>
       </div>
     </div>
   </div>

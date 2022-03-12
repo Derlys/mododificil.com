@@ -9,28 +9,17 @@ $font-weight-normal: 300;
 
 $card-bg: $light;
 
-@import "~bootstrap/scss/bootstrap";
 html,
 body {
   height: 100%;
 }
-
-.navbar-light .navbar-toggler-icon {
-  background-image: url("assets/images/hamburger.svg");
+nav {
+  background: $light;
 }
-.bg-site1 {
-  background-color: $light;
-}
-markdown p {
-  text-align: justify;
-}
-markdown img {
-  max-width: 100%;
+footer {
+  background: $light;
 }
 
-img.slide {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  color: white;
-}
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
