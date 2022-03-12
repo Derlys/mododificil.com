@@ -4,7 +4,7 @@ declare var require: any;
 export const posts: Post[] = [
   {
     description:
-      'En la situación actual en que nos encontramos ya es muy común que la mayoría de personas trabajen de manera remota, toda esta situación de la pandemia a llevado a las empresas a adaptarse y buscar formas de seguir y no detener su funcionamiento.',
+      'En la situación actual en que nos encontramos ya es muy común que la mayoría de personas trabajen de manera remota.',
     published: true,
     content: require('!!raw-loader!./el-trabajo-remoto-el-futuro-del-desarrollo-web.md')
       .default,
@@ -26,7 +26,7 @@ export const posts: Post[] = [
   },
   {
     description:
-      'Las mejores herramientas digitales para aprender desarrollo web',
+      'Conoce las que para mí son las herramientas digitales que te ayudan a prender desarrollo web.',
     title: 'Las mejores herramientas digitales para aprender desarrollo web',
     content: require('!!raw-loader!./las-mejores-herramientas-digitales-para-aprender-desarrollo-web.md')
       .default,
