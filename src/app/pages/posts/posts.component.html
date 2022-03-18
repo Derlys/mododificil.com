@@ -1,26 +1,36 @@
-<div class="container mt-7">
-  <div *ngIf="items$ | async as items" class="row mt-3 mt-md-5 d-flex">
-    <main>
-
+<div class="w-full bg-white p-12">
+  <div class="header flex items-end justify-center mb-12"></div>
+  <div
+    *ngIf="items$ | async as items"
+    class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-12"
+  >
     <div
       *ngFor="let item of items"
-      class="col-12 offset-md-2 col-md-8 mb-3 mb-md-5">
-
-      <div class="card" >
-        <a [routerLink]="['/posts', item.id]">
-        </a>
-        <img class="card-img-top"  [src]="item.imgUrl" alt="articulo"/>
-
-        <div class="card-body">
-          <a [routerLink]="['/posts', item.id]">
-
-            <h1>{{ item.title }}</h1>
-          </a>
-          <h6>{{ item.createdAt }}</h6>
-          <markdown [data]="item.description"> </markdown>
+      class="overflow-hidden shadow-lg rounded-lg h-90 w-60 md:w-80 cursor-pointer m-auto"
+    >
+      <a [routerLink]="['/posts', item.id]" class="w-full block h-full">
+        <img
+          alt="blog photo"
+          [src]="item.imgUrl"
+          class="max-h-40 w-full object-cover"
+        />
+        <div class="bg-white dark:bg-gray-800 w-full p-4">
+          <p class="text-gray-800 dark:text-white text-xl font-medium mb-2">
+            {{ item.title }}
+          </p>
+          <p class="text-gray-400 dark:text-gray-300 font-light text-md">
+            <markdown [data]="item.description"> </markdown>
+          </p>
+          <div class="flex items-center mt-4">
+            <div class="flex flex-col justify-between ml-4 text-sm">
+              <p class="text-gray-800 dark:text-white">Derlys Dominguez</p>
+              <p class="text-gray-400 dark:text-gray-300">
+                {{ item.createdAt }}
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
+      </a>
     </div>
-    </main>
   </div>
 </div>
