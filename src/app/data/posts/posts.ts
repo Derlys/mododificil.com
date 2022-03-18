@@ -38,7 +38,7 @@ export const posts: Post[] = [
   {
     createdAt: '2020-09-09',
     description:
-      'Muchas personas piensan que cuando escribo la frase **modo difícil** me refiero a que todo lo que hagamos tenga que ser tortuoso y nada divertido. Quiero aclarar que no es así😜. Lo irónico es que muchas veces el camino a cumplir nuestras metas es saboteado por nosotros mismos. Pues queriendo tomar el camino más corto, obtenemos como resultado lo inevitable: demorarse mas".',
+      'Muchas personas piensan que cuando escribo la frase **modo difícil** me refiero a que todo lo que hagamos tenga que ser tortuoso y nada divertido. Quiero aclarar que no es así😜. .',
     title: 'Creando mi homepage en modo difícil',
     content: require('!!raw-loader!./creando-mi-homepage-en-modo-dificil.md')
       .default,
@@ -53,7 +53,7 @@ export const posts: Post[] = [
       .default,
     imgUrl: '/assets/images/art5.jpg',
     description:
-      '¿Cómo comienza mi aprendizaje de código? Es algo que debí pensar detenidamente porque no estaba realmente consciente del momento exacto en que hice mi primera línea de código, hasta que empecé a mirar mi github y todos mis cuadritos verdes =).',
+      '¿Cómo comienza mi aprendizaje de código? Es algo que debí pensar detenidamente porque no estaba realmente consciente del momento exacto en que hice mi primera línea de código.',
     published: true,
     id: '5-claves-para-empezar-como-developer-in-training',
   },
@@ -61,7 +61,7 @@ export const posts: Post[] = [
     title: 'Mi trabajo en una fundación',
     published: true,
     description:
-      'Code Your Future Colombia (CYFCO) es una fundación sin ánimo de lucro que otorga becas a personas sin la posibilidad de acceder a una carrera universitaria. ',
+      'Code Your Future Colombia (CYFCO) es una fundación sin ánimo de lucro que otorga becas a personas sin la posibilidad de acceder a una carrera universitaria.',
     createdAt: '2020-08-26',
     content: require('!!raw-loader!./mi-trabajo-en-una-fundacion.md').default,
     imgUrl: '/assets/images/art6.png',
@@ -81,7 +81,7 @@ export const posts: Post[] = [
   {
     createdAt: '2020-08-15',
     description:
-      'Quiero contarte un poco de mi historia para que puedas entender cómo y porqué nació Modo Difícil, mi experiencia busca ayudar a más personas que al igual que yo quieren alcanzar sus sueños y recorrer el camino junto a mí.',
+      'Quiero contarte un poco de mi historia para que puedas entender cómo y porqué nació Modo Difícil.',
     published: true,
     title: 'Cómo descubrí el mundo del desarrollo web',
     content: require('!!raw-loader!./como-descubri-el-mundo-del-desarrollo-web.md')
