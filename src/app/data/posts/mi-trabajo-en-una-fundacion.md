@@ -1,5 +1,3 @@
-# Mi trabajo en una fundación
-
 BeeSoft Labs (BSL) es una fundación sin ánimo de lucro que otorga becas a personas sin la posibilidad de acceder a una carrera universitaria. La beca consiste en aprender desarrollo web durante 8 meses con todos los recursos que necesite el becado como por ejemplo: Un computador, internet, alimentación, transporte etc.
 
 Trabajar en esta fundación me ha enseñado un sin número de cosas y como son tan importantes me gustaría enumerarlas.
@@ -12,13 +10,13 @@ Eso es **BSL** una oportunidad para personas que estaban esperando explotar un t
 
 ## 2. Ayudar a otros te llena.
 
-Ser coordinadora de la fundación es actualmente mi trabajo, me alegra y soy inmensamente feliz no sentirlo ni verlo así. porque ayudar a otros te da una realización que no se compara con ninguna recompensa monetaria, profesional o de otro tipo.
+Ser coordinadora de la fundación es actualmente mi trabajo, me alegra y soy inmensamente feliz no sentirlo ni verlo así. Porque ayudar a otros te da una realización que no se compara con ninguna recompensa monetaria, profesional o de otro tipo.
 
-Ver personas felices por el trabajo que haces tú y los voluntarios es una motivación que no acaba,te impulsa a querer ayudar a más y más personas.
+Ver personas felices por el trabajo que haces tú y los voluntarios es una motivación que no acaba, te impulsa a querer ayudar a más y más personas.
 
 ## 3. Colocate retos a ti mismo
 
-Como les conte en [mi anterior articulo](https://mododificil.com/posts/de-tecnologa-electromecanica-a-coordinadora-de-una-fundacion) debí realizar varios cambios para obtener este empleo entre ellos cambiar de carrera y arriesgarme a hacer algo que no había hecho antes. Salir de mi zona de comfort y aceptar que si quería esta nueva carrera debía trabajar por ello.
+Como les conte en <a href = "https://mododificil.com/posts/de-tecnologa-electromecanica-a-coordinadora-de-una-fundacion" target = "_blank">mi anterior articulo</a> debí realizar varios cambios para obtener este empleo entre ellos cambiar de carrera y arriesgarme a hacer algo que no había hecho antes. Salir de mi zona de comfort y aceptar que si quería esta nueva carrera debía trabajar por ello.
 
 Retarte a ti mismo es algo que haces constantemente y en diferentes situaciones de tu vida eso le da emoción al juego y lo pone en **modo difícil** .
 
@@ -28,6 +26,6 @@ Nunca subestimes a alguien sin importar de donde viene o qué condición social 
 
 Hazle saber que todo lo que se proponga puede lograrlo con esfuerzo, constancia y nunca olvidando que el único reto es superarse a sí mismo.
 
-Por ultimo me gustaría animarte a ser voluntario en cualquier fundación que tenga una causa con la que te sientas identificado, puede que ahora mismo pienses " pero yo como puedo ayudar" créeme tienes talentos que pueden aportar a cambiar vidas.
+Por último me gustaría animarte a ser voluntario en cualquier fundación que tenga una causa con la que te sientas identificado, puede que ahora mismo pienses "pero yo como puedo ayudar" créeme tienes talentos que pueden aportar a cambiar vidas.
 
 También quiero agradecer a todos los voluntarios de BeeSoft Labs. **GRACIAS** por ser el motor que nos impulsa a seguir, por creer en esta causa y acompañarnos en el proceso.
