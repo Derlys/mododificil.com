@@ -4,7 +4,7 @@ $primary: #04668d;
 $navbar-light-color: black;
 $navbar-light-active-color: $primary;
 
-$font-size-base: 1rem;
+$font-size-base: 2 rem;
 $font-weight-normal: 300;
 
 $card-bg: $light;
@@ -12,6 +12,8 @@ $card-bg: $light;
 html,
 body {
   height: 100%;
+  margin: 0;
+  padding: 0;
 }
 nav {
   background: $light;
