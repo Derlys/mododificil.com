@@ -1,13 +1,7 @@
-<!-- This flex container takes the full height -->
-<div>
+<div class="flex flex-col h-screen justify-between">
   <app-header></app-header>
-  <!-- The main area does not shrink, 'pushing down' the footer -->
-  <main>
-    <router-outlet> </router-outlet>
-    <!-- This will render the routes -->
-  </main>
-  <!-- This keeps the footer down if the main content does not fill up the space -->
-  <footer>
-    <app-footer></app-footer>
-  </footer>
+  <div class="flex-grow">
+    <router-outlet></router-outlet>
+  </div>
+  <app-footer></app-footer>
 </div>

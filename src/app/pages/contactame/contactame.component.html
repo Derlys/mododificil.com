@@ -1,51 +1,62 @@
-<div class="container">
-  <div class="row my-3 my-md-5">
-    <!-- This is a single column that is responsive -->
-    <div class="col-12 col-md-6 offset-md-3">
+<section class="text-gray-600 body-font relative">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-12">
+      <h1
+        class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"
+      >
+        Suscríbete a nuevas actualizaciones
+      </h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+        Si te suscríbes puedes recibir actualizaciones de nuevo contenido y de
+        mis redes sociales.
+      </p>
+    </div>
+    <div class="lg:w-1/2 md:w-2/3 mx-auto form-group">
       <div *ngIf="thanks" class="alert bg-light alert-info text-center">
         Gracias por suscribirte! Que empiece el juego!
       </div>
-      <div *ngIf="!thanks" class="card">
-        <div class="card-body">
-          <!-- The formGroup 'form' is defined in the component class -->
-          <form [formGroup]="form">
-            <div class="form-group">
-              <label for="email">Nombre</label>
-              <!-- The formControlName defines the name of the field in the formGroup -->
+      <form *ngIf="!thanks" [formGroup]="form">
+        <div class="flex flex-wrap -m-2">
+          <div class="p-2 w-1/2">
+            <div class="relative">
+              <label for="name" class="leading-7 text-sm text-gray-600"
+                >Nombre</label
+              >
               <input
                 id="name"
                 formControlName="name"
                 type="text"
                 required
-                class="form-control"
+                class="form-control w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
             </div>
-            <div class="form-group">
-              <label for="email">Correo electrónico</label>
+          </div>
+          <div class="p-2 w-1/2">
+            <div class="relative">
+              <label for="email" class="leading-7 text-sm text-gray-600"
+                >Correo electronico</label
+              >
               <input
                 id="email"
                 formControlName="email"
                 type="email"
                 required
-                class="form-control"
+                class="form-control w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
             </div>
-          </form>
-        </div>
-        <div class="card-footer">
-          <div class="d-flex justify-content-between">
-            <!-- The button has a click handler, it will be disabled if the form is not valid -->
+          </div>
+          <div class="p-2 w-full">
             <button
               (click)="submit()"
               [disabled]="!form.valid"
               type="submit"
-              class="btn btn-outline-success"
+              class="py-4 px-6 bg-sky-800 text-white w-full text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg"
             >
-              Suscribirme
+              Suscríbete
             </button>
           </div>
         </div>
-      </div>
+      </form>
     </div>
   </div>
-</div>
+</section>
