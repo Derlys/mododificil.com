@@ -14,6 +14,6 @@ export class DataService {
     return of(this.postsSubject.getValue().find((post) => post.id === id));
   }
   getLatestPosts() {
-    return of(this.postsSubject.getValue().slice(0, 3));
+    return of(this.postsSubject.getValue().slice(0, 6));
   }
 }
