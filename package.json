@@ -27,6 +27,7 @@
     "@nguniversal/express-engine": "^13.0.1",
     "@ngx-loading-bar/core": "^6.0.0",
     "@ngx-loading-bar/router": "^6.0.0",
+    "@tailwindcss/forms": "^0.5.4",
     "express": "^4.15.2",
     "firebase": "^9.6.2",
     "ngx-bootstrap": "^7.1.2",
