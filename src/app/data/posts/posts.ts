@@ -2,18 +2,7 @@ import { Post } from '../models/post';
 declare var require: any;
 
 export const posts: Post[] = [
-  {
-    description:
-      'Kin es una moneda digital para los pagos dentro de las aplicaciones. Un 14% de transacciones en Solana,\n' +
-      '650.000 transacciones diarias en el 2021 y 1,8 millones de usuarios activos.',
-    published: true,
-    content: require('!!raw-loader!./Qué es Kin.md')
-      .default,
-    imgUrl: '/assets/images/art9.png',
-    title: '¿Qué es Kin?',
-    createdAt: '2022-11-01',
-    id: 'Qué es Kin',
-  },
+  
   {
     description:
       'En la situación actual en que nos encontramos ya es muy común que la mayoría de personas trabajen de manera remota.',
