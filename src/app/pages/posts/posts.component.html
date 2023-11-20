@@ -1,36 +1,49 @@
 <div class="w-full bg-white p-12">
-  <div class="header flex items-end justify-center mb-12"></div>
-  <div
-    *ngIf="items$ | async as items"
-    class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-12"
-  >
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto max-w-2xl text-center">
+      <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+        Blog
+      </h2>
+      <p class="mt-2 text-lg leading-8 text-gray-600">
+        nuestro contenido está diseñado para inspirar a desarrolladores de todos
+        los niveles. ¡Prepárate para ampliar tus conocimientos y descubrir
+        nuevas perspectivas que impulsarán tu carrera en el desarrollo de
+        software!
+      </p>
+    </div>
+    <div class="header flex items-end justify-center mb-12"></div>
     <div
-      *ngFor="let item of items"
-      class="overflow-hidden shadow-lg rounded-lg h-90 w-60 md:w-80 cursor-pointer m-auto"
+      *ngIf="items$ | async as items"
+      class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-12"
     >
-      <a [routerLink]="['/posts', item.id]" class="w-full block h-full">
-        <img
-          alt="blog photo"
-          [src]="item.imgUrl"
-          class="max-h-40 w-full object-cover"
-        />
-        <div class="bg-white dark:bg-gray-800 w-full p-4">
-          <p class="text-gray-800 dark:text-white text-xl font-medium mb-2">
-            {{ item.title }}
-          </p>
-          <p class="text-gray-400 dark:text-gray-300 font-light text-md">
-            <markdown [data]="item.description"> </markdown>
-          </p>
-          <div class="flex items-center mt-4">
-            <div class="flex flex-col justify-between ml-4 text-sm">
-              <p class="text-gray-800 dark:text-white">Derlys Dominguez</p>
-              <p class="text-gray-400 dark:text-gray-300">
-                {{ item.createdAt }}
-              </p>
+      <div
+        *ngFor="let item of items"
+        class="overflow-hidden shadow-lg rounded-lg h-90 w-60 md:w-80 cursor-pointer m-auto"
+      >
+        <a [routerLink]="['/posts', item.id]" class="w-full block h-full">
+          <img
+            alt="blog photo"
+            [src]="item.imgUrl"
+            class="max-h-40 w-full object-cover"
+          />
+          <div class="bg-white dark:bg-gray-800 w-full p-4">
+            <p class="text-gray-800 dark:text-white text-xl font-medium mb-2">
+              {{ item.title }}
+            </p>
+            <p class="text-gray-400 dark:text-gray-300 font-light text-md">
+              <markdown [data]="item.description"> </markdown>
+            </p>
+            <div class="flex items-center mt-4">
+              <div class="flex flex-col justify-between ml-4 text-sm">
+                <p class="text-gray-800 dark:text-white">Derlys Dominguez</p>
+                <p class="text-gray-400 dark:text-gray-300">
+                  {{ item.createdAt }}
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-      </a>
+        </a>
+      </div>
     </div>
   </div>
 </div>
