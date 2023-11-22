@@ -7,16 +7,9 @@ export const environment = {
   
   mailchimp: {
     endpoint:
-      'https://gmail.us17.list-manage.com/subscribe/post-json?u=b225d34145f6bd9adf5e9872f&amp;id=dba8312784&',
-    code: 'b_b225d34145f6bd9adf5e9872f_dba8312784',
+      'https://dev.us21.list-manage.com/subscribe/post-json?u=347d08d972fddfdaed10c2842&id=0491e255c4&f_id=0026e7e6f0',
+    code: '086143b_347d08d972fddfdaed10c2842_0491e255c4',
   },
 };
 
-/*
- * For easier debugging in development mode, you can import the following file
- * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
- *
- * This import should be commented out in production mode because it will have a negative impact
- * on performance if an error is thrown.
- */
-// import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+

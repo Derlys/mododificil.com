@@ -13,7 +13,7 @@ export class ContactameComponent implements OnInit {
   thanks = false;
 
   form = new FormGroup({
-    name: new FormControl(''),
+    firstName: new FormControl(''),
     lastName: new FormControl(''),
     email: new FormControl(''),
     message: new FormControl(''),
@@ -22,17 +22,18 @@ export class ContactameComponent implements OnInit {
   constructor(private http: HttpClient) {}
 
   public submit() {
-    this.form.enable();
+    this.form.disable();
 
     const payload = this.form.value;
      
     const params = new HttpParams()
-      .set('FNAME', payload.name)
+      .set('FNAME', payload.firstName)
+      .set('LNAME', payload.lastName)
       .set('EMAIL', payload.email)
+      .set('MMERGE3', payload.message)
       .set(environment.mailchimp.code, '');
 
-    const mailChimpUrl = environment.mailchimp.endpoint + params.toString();
-
+    const mailChimpUrl = environment.mailchimp.endpoint + '&' + params.toString();
     this.http.jsonp<MailChimpResponse>(mailChimpUrl, 'c').subscribe(
       (response) => {
         console.log(response);
