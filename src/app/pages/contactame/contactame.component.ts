@@ -10,8 +10,6 @@ import { environment } from 'src/environments/environment';
   styleUrls: ['./contactame.component.scss'],
 })
 export class ContactameComponent implements OnInit {
-  thanks = false;
-
   form = new FormGroup({
     firstName: new FormControl(''),
     lastName: new FormControl(''),
@@ -25,7 +23,7 @@ export class ContactameComponent implements OnInit {
     this.form.disable();
 
     const payload = this.form.value;
-     
+
     const params = new HttpParams()
       .set('FNAME', payload.firstName)
       .set('LNAME', payload.lastName)
@@ -33,18 +31,19 @@ export class ContactameComponent implements OnInit {
       .set('MMERGE3', payload.message)
       .set(environment.mailchimp.code, '');
 
-    const mailChimpUrl = environment.mailchimp.endpoint + '&' + params.toString();
+    const mailChimpUrl =
+      environment.mailchimp.endpoint + '&' + params.toString();
     this.http.jsonp<MailChimpResponse>(mailChimpUrl, 'c').subscribe(
       (response) => {
         console.log(response);
         this.form.enable();
         if (response.result && response.result !== 'error') {
-          this.thanks = true;
-          // this.ui.toastSuccess(`You are signed up to our newsletter!`);
+          this.form.reset('');
         } else {
           alert('ohh ohh hubo un error :(');
         }
       },
+
       (error) => {
         this.form.enable();
         console.error(error);
