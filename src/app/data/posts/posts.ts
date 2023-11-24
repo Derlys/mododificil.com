@@ -2,6 +2,18 @@ import { Post } from '../models/post';
 declare var require: any;
 
 export const posts: Post[] = [
+
+  {
+    description:
+      'Mi experiencia escribiendo posts en la plataforma',
+    published: true,
+    content: require('!!raw-loader!./usando-dev.to-para escribir-mis-posts.md')
+      .default,
+    imgUrl: '/assets/images/art9.png',
+    title: 'Usando Dev.to para escribir mis posts',
+    createdAt: '2020-10-23',
+    id: 'usando-dev.to-para escribir-mis-posts.md',
+  },
   
   {
     description:
@@ -90,4 +102,5 @@ export const posts: Post[] = [
     imgUrl: '/assets/images/art8.jpg',
     id: 'como-descubri-el-mundo-del-desarrollo-web',
   }
+  
 ];
