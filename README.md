@@ -10,7 +10,13 @@ In this landing page I have applied knowledge of programming languages such as: 
 
 - Demo
 - Requirements
-- 
+- Features
+- Built with
+- Develoment
+- What impacted me positively
+- My challenge
+- What Do you need for run this project
+- Build
 
 
 ## Demo
